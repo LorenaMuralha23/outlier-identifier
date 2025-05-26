@@ -1,4 +1,5 @@
 import cli
 
+
 if __name__ == "__main__":
-    cli.hello_astronaut()
+    cli.import_csv_command()
