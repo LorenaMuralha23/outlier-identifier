@@ -2,4 +2,4 @@ import cli
 
 
 if __name__ == "__main__":
-    cli.import_csv_command()
+    cli.proccess_outliers()
