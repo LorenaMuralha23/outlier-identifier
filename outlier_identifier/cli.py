@@ -22,7 +22,7 @@ def import_csv_command(csv_path):
 
 @click.command()
 @click.argument("csv-path", required=True)
-@click.option("--csv-path", help="import your data as a .csv file")
+@click.option("--csv-path", help="remove outliers from your data")
 def proccess_outliers(csv_path):
     click.clear()
     outlier_detection_method = inquirer.select(message="Escolha o método de detecção de outliers:",
